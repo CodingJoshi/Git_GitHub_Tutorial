@@ -1,0 +1,15 @@
+we have 4 different type of files 
+1) Untracked  // initial file which is not tracked by git
+2) Staged	// git starts tracking the file it is stagged now
+3) Unmodified/Commited	// finally saved by git commited to repository
+4) Modified	// some changes/modifications done in Unmodified/committed file
+
+
+Stagging a Untracked file
+	git add <fileName>
+Commiting a stagged file
+	git commit -m "message"
+commiting a Modified file
+	git commit -a -m "message"
+Untracking a stagged file
+	git restore --staged
