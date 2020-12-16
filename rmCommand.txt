@@ -1,0 +1,18 @@
+1) remove file from git only
+	git rm --cached <fileName>
+now the file removed from index(git) and changes are staged also
+
+2) remove file from disk as well
+	git rm <fileName>
+this will remove file from disk and changes are stagged 
+
+3) Reterive the deleted file back into pc
+
+	git restore --staged <fileName>
+	git restore <fileName>
+
+4) Application
+git rm can be used to delete a file from gitHub which is commited by mistake
+	git rm --cached <fileName>
+now add fileName into .gitignore file
+	git commit -m ".gitignore fixes"
